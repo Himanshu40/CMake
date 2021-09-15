@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.21.1)
 
-project(AddingLibrary VERSION 1.0)
+project(EP2-AddingLibrary VERSION 1.0)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Declare a new library
 add_library(
