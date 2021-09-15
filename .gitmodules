@@ -1,0 +1,3 @@
+[submodule "EP4-Submodules/external/glfw"]
+	path = EP4-Submodules/external/glfw
+	url = https://github.com/glfw/glfw.git
