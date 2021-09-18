@@ -1,0 +1,3 @@
+#pragma once
+#define EP5_Versioning_VERSION_MAJOR "@EP5_Versioning_VERSION_MAJOR@"
+#define EP5_Versioning_VERSION_MINOR "@EP5_Versioning_VERSION_MINOR@"
