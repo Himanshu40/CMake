@@ -2,7 +2,7 @@
 * ### Making Libs optional
 
 ## Synopsis
-```
+```cmake
 # Sets the variable "USE_ADDER" to "ON".
 # It can be turned "OFF" by passsing command during cmake.
 # cmake -DUSE_ADDER=OFF -S . -B build/
