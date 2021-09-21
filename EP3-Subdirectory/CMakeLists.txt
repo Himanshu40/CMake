@@ -12,6 +12,4 @@ add_subdirectory(Adder)
 
 target_include_directories(run PUBLIC Adder)
 
-target_link_directories(run PRIVATE Adder)
-
-target_link_libraries(run PRIVATE adder)
+target_link_libraries(run PUBLIC adder)

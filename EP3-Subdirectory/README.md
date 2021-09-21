@@ -1,7 +1,7 @@
 # EP-3
 * ### Multiple Files
 * ### Libraries
-* ### SubDirectory
+* ### Sub-Directory
 
 ## Directory structure
 ```
@@ -24,8 +24,4 @@ add_subdirectory(Adder)
 # Specifies include directories to use when compiling a given target.
 # The named "<target>" must have been created by a command such as "add_executable()" or "add_library()".
 target_include_directories(run PUBLIC Adder)
-
-# Add link directories to a target.
-# Specifies the paths in which the linker should search for libraries when linking a given target.
-target_link_directories(run PRIVATE Adder)
 ```
