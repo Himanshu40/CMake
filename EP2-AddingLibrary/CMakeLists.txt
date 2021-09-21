@@ -9,11 +9,10 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall")
 # Declare a new library
 add_library(
     Adder
-    adder.h
     adder.cpp
 )
 
 add_executable(run main.cpp)
 
 # Link run with Adder library
-target_link_libraries(run PRIVATE Adder)
+target_link_libraries(run PUBLIC Adder)
