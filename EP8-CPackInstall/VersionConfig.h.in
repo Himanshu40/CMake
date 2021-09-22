@@ -1,0 +1,4 @@
+#pragma once
+
+#define EP8_CPackInstall_VERSION_MAJOR "@EP8_CPackInstall_VERSION_MAJOR@"
+#define EP8_CPackInstall_VERSION_MINOR "@EP8_CPackInstall_VERSION_MINOR@"
